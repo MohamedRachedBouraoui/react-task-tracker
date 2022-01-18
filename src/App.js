@@ -13,9 +13,7 @@ function App() {
 
   // const [items, setItems] = useState(JSON.parse(localStorage.getItem("shoppingList")) || []);
 
-  const [items, setItems] = useState(
-    JSON.parse(localStorage.getItem("shoppingList")) || []
-  );
+  const [items, setItems] = useState([]);
   const [newItem, setNewItem] = useState("");
   const [search, setSearch] = useState("");
   const [fetchError, setFetchError] = useState(null);
